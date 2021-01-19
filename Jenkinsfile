@@ -1,7 +1,7 @@
 node {
 
 stage('SCM'){
- git 'https://github.com/estherviaud/devops_exercice_jenkins/edit/master/Jenkinsfile'
+ git 'https://github.com/estherviaud/devops_exercice_jenkins/Jenkinsfile'
 }
 
 stage('Compile'){
